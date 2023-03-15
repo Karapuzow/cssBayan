@@ -26,10 +26,13 @@
 
     }
 
-    details:hover {
-        cursor: pointer;
-        
-        transition: height 3s ease;
+    details:hover:first-child {
+       cursor: pointer;
+
+    }
+
+    summary {
+
     }
 
     details:first-child {
@@ -90,12 +93,18 @@
         background-color: bisque;
     }
 
-    div {
-        width: 30%;
+    details{
+        width: 70%;
         margin: 0 auto;
         display: flex;
         align-items: center;
         justify-content: center;
+    }
 
+    img{
+        width: 8em;
+        height: 100%;
+        align-items: center;
+        justify-content: center;
     }
 }
