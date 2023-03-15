@@ -27,12 +27,17 @@
     }
 
     details:hover:first-child {
-       cursor: pointer;
+        cursor: pointer;
+
+    }
+
+    details:hover {
+        cursor: pointer;
 
     }
 
     summary {
-
+        font: 1em sans-serif;
     }
 
     details:first-child {
@@ -40,7 +45,7 @@
     }
 
     details {
-        transition: height 3s ease;
+        transition: height 1s ease;
     }
 
     details:not([open]) {
@@ -91,20 +96,32 @@
         align-items: center;
         justify-content: center;
         background-color: bisque;
+
     }
 
-    details{
+    details {
         width: 70%;
         margin: 0 auto;
         display: flex;
         align-items: center;
         justify-content: center;
+        font-size: 70%;
     }
 
-    img{
+    div {
+        display: flex;
+    }
+
+    img {
+        display: flex;
         width: 8em;
         height: 100%;
         align-items: center;
         justify-content: center;
+        margin-top: 10%;
     }
-}
+
+
+    details[open] {
+        height: 10em;
+    }
