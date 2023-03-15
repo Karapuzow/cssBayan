@@ -37,7 +37,8 @@
     }
 
     summary {
-        font: 1em sans-serif;
+        font: 1em;
+        font-family: fantasy;
     }
 
     details:first-child {
@@ -81,7 +82,7 @@
     summary:hover {
         text-transform: uppercase;
         color: rgb(8, 8, 27);
-        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-family: fantasy;
     }
 
 }
@@ -100,13 +101,15 @@
     }
 
     details {
-        width: 70%;
+        width: 85%;
         margin: 0 auto;
         display: flex;
         align-items: center;
         justify-content: center;
         font-size: 70%;
     }
+
+
 
     div {
         display: flex;
@@ -121,7 +124,9 @@
         margin-top: 10%;
     }
 
-
+    
     details[open] {
         height: 10em;
     }
+
+}
