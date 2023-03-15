@@ -28,9 +28,15 @@
 
     details:hover {
         cursor: pointer;
+        
+        transition: height 3s ease;
     }
 
-    details{
+    details:first-child {
+        display: block;
+    }
+
+    details {
         transition: height 3s ease;
     }
 
